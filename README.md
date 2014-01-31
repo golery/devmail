@@ -39,15 +39,14 @@ Get help:
 	java -cp path/devmail.jar gs.mail.smtp -h
 ```	
 
-Send a message:
+Send a default message to SMTP server local host at port 25
 ```
 	java -cp path/devmail.jar gs.mail.smtp 
 ```	
-   Send a default message to SMTP server local host at port 25
 
-Send a message:
+Send message "You have a new mail" to port 25 at local host
 ```
 	java -cp path/devmail.jar gs.mail.smtp -host localhost -p 8025 -s "Subject" -b "You have a new mail"
 ```	
-   Send message "You have a new mail" to port 25 at local host
+  
  
