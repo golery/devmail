@@ -1,4 +1,4 @@
-cd ../devmail
+cd devmail
 mvn clean install assembly:single
 echo 
 echo
