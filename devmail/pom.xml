@@ -64,13 +64,17 @@
 					<descriptorRefs>
 						<descriptorRef>jar-with-dependencies</descriptorRef>
 					</descriptorRefs>
-					
-					<!-- Set output filename -->  
+
+					<!-- Set output filename -->
 					<finalName>devmail</finalName>
 					<appendAssemblyId>false</appendAssemblyId>
-					
+
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
+
+	<scm>
+		<connection>scm:git:https://github.com/greensuisse/devmail.git</connection>
+	</scm>
 </project>
