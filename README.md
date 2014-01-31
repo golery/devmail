@@ -6,13 +6,14 @@ Local loopback mail server for developers. It supports SMTP, POP3 and IMP.
 HOW TO USE
 ----------
 
+```
 java -cp target/devmail.jar <appId> <params>
 where 
 	<appId> : gs.mail.server  OR gs.mail.smtp
 	<params> : parameters can be retrieved by 
 		java -cp path/devmail.jar gs.mail.server -h
 		java -cp path/devmail.jar gs.mail.smtp -h
-
+```
 
 EXAMPLE GS.MAIL.SERVER:
 -----------------------
