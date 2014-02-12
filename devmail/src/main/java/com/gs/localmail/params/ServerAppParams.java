@@ -10,5 +10,5 @@ public class ServerAppParams extends AbstractAppParams {
 	}
 	
 	@Parameter(names = { "-p", "--portoffset" }, description = "Port offset (ex: -p 8000 makes application listens to 8025 for SMTP).")
-	public int portOffset = 0;
+	public int portOffset = 8000;
 }

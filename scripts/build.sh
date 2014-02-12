@@ -9,6 +9,6 @@ echo
 echo "Get help: java -cp target/devmail.jar gs.mail.server -h"
 echo "Get help: java -cp target/devmail.jar gs.mail.smtp -h"
 
-echo "java -cp target/devmail.jar gs.mail.server"
-echo "java -cp target/devmail.jar gs.mail.smtp"
+echo "java -cp devmail/target/devmail.jar gs.mail.server"
+echo "java -cp devmail/target/devmail.jar gs.mail.smtp"
 
